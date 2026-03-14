@@ -4,7 +4,7 @@ import { VscCode } from 'react-icons/vsc';
 
 function Logo() {
   return (
-    <Button size='medium' asChild>
+    <Button size='logo' asChild>
         <Link href='/'>
             {/*<VscCode className='w-6 h-6'/>*/}
             <svg
@@ -30,7 +30,7 @@ function Logo() {
 
 
         </Link>
-    </Button>
+   </Button>
   );
 }
 
